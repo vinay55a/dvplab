@@ -11,6 +11,8 @@ plt.plot(x,y1,'red',x,y2,'green',x,y3,'blue')
 plt.legend(['x','square-x','sqrt-x'])
 plt.xticks(x)
 plt.yticks(y2)
+plt.xlabel("x-axis",fontsize=14)
+plt.ylabel("y-axis",fontsize=14)
 plt.title("linear_vinay A_1KI23CS182")
 plt.show()
 
