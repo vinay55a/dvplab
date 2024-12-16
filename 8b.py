@@ -3,7 +3,7 @@ from bokeh.io import output_file
 from bokeh.io import show
 from bokeh.layouts import row,column
 from bokeh.plotting import figure
-fig=figure(width=500,height=300,title='YASHAS-1KI23CS185')
+fig=figure(width=500,height=300,title='VINAY-1KI23CS182')
 x=np.linspace(0,10,100)
 y=np.sin(x)
 fig.line(x,y,line_width=2,legend_label='Line plot')
